@@ -10,13 +10,13 @@ export default function TestAuth() {
       <pre>{JSON.stringify(session, null, 2)}</pre>
       <button
         onClick={() => signIn()}
-        className="px-4 py-2 bg-green-500 text-white rounded mr-2"
+        className="px-4 py-2 bg-green-400 text-white rounded mr-2"
       >
         Login
       </button>
       <button
         onClick={() => signOut()}
-        className="px-4 py-2 bg-red-500 text-white rounded"
+        className="px-4 py-2 bg-red-400 text-white rounded"
       >
         Logkkkk
       </button>
